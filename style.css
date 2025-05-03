@@ -5,7 +5,6 @@
     box-sizing: border-box;
 }
 
-
 /* custom */
 
 body {
@@ -36,6 +35,9 @@ footer {
     background-color: yellow;
 }
 
+nav ul {
+    padding: 20px 20px;
+}
 /* utility */
 
 .flex {
