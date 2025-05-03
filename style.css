@@ -5,6 +5,11 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 /* custom */
 
 body {
@@ -15,7 +20,8 @@ body {
 nav {
     width: 20%;
     height: 100%;
-    background-color: red;
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
 main {
@@ -38,8 +44,26 @@ footer {
 nav ul {
     padding: 20px 20px;
 }
+
+.button {
+    display: inline-block;
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    padding: 10px 7px;
+    margin: 10px 5px;
+}
+
 /* utility */
 
 .flex {
     display: flex;
+}
+
+.justify-end {
+    justify-content: end;
+}
+
+.bg-blue {
+    background-color: #0E121B;
 }
